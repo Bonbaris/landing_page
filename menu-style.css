@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #9A4444;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-size: 20px;
+  }
+h1 {
+font-size: 50px;
+}
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    max-width: 1440px;
+    position: relative;
+    background-image: linear-gradient(black, transparent);
+}
+.inner-header{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list a {
+    margin: 20px;
+    font-size: 20px;
+}
+
+/* Menu header part */
+
+.menu {
+    max-width: 1440px;
+    height: auto;
+    flex-direction: column;
+}
+.inner-menu {
+    width: 1200px;
+    height: auto;
+    background-color: #FAF8ED;
+    border-radius: 40px;
+    border: 5px solid #FBECB2;
+    flex-direction: column;
+}
+.inner-menu .menu-list {
+    width: 100%;
+    height: auto;
+}
+.inner-menu-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.menu hr {
+    background-color: #FBECB2;
+    width: 100%;
+    height: 5px;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+/* Menu main part */
+.hot-drinks-menu {
+    flex-direction: column;
+}
+
+/* Coffee Box*/
+.coffee-box {
+    width: 300px;
+    height: auto;
+    border: 1px solid #FBECB2;
+    padding: 15px;
+    border-radius: 20px;
+}
+.coffee-image{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.coffee-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.coffee-price {
+    width: 40px;
+    background-color: #FAF8ED;
+    border-radius: 5px;
+    border: 1px solid #FBECB2;
+}
+.coffee-price:hover {
+    background-color: #FBECB2;
+    transition: 0.3s ease;
+}
